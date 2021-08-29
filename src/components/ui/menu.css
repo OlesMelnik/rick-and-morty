@@ -1,0 +1,40 @@
+.menu {
+    display: flex;
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+    list-style: none;
+}
+
+nav {
+    background-color: rgb(29, 82, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    display: flex;
+    color: #fff;
+    justify-self: center;
+    align-self: center;
+    width: 150px;
+    margin: 0 25px;
+}
+
+li a {
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.active {
+    border-bottom: 1px solid #fff;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .menu li {
+        width: auto;
+    }
+}

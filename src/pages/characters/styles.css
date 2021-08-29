@@ -1,0 +1,10 @@
+.load-more-btn {
+    margin-bottom: 50px !important;
+    text-align: center;
+}
+
+.load-more-btn:hover {
+    color: rgb(0, 88, 160);
+    text-decoration: underline;
+    cursor: pointer;
+}

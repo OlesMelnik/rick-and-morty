@@ -1,0 +1,56 @@
+.episode-list {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active-episode {
+    justify-content: space-between;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    overflow-wrap: normal;
+    padding: 0 15px;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
+
+.disabled-episode {
+    justify-content: space-between;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    overflow-wrap: normal;
+    padding: 0 15px;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
+
+.disabled-episode span {
+    text-decoration: line-through;
+    overflow-wrap: anywhere;
+}
+
+.active-episode span {
+    overflow-wrap: anywhere;
+}
+
+.form {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.textinput {
+    width: 80%;
+}
+
+.create-btn {
+    min-width: 150px !important;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+}
