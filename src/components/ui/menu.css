@@ -6,6 +6,46 @@
     list-style: none;
 }
 
+.hamburger-block {
+    padding: 0 10px;
+    margin-left: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    background-color: rgb(29, 82, 255);
+}
+
+.hamburger-menu {
+    margin: 0;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: rgb(29, 82, 255);
+}
+
+.hamburger-menu li {
+    margin: 10px 0;
+}
+
+.hamburger-menu li a {
+    font-size: 1.8rem;
+}
+
+.menu-icon {
+    color: #ffffff;
+    font-size: 2.5rem !important;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
 nav {
     background-color: rgb(29, 82, 255);
     display: flex;
@@ -31,6 +71,16 @@ li a {
 
 .active {
     border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 600px) {
+    .hamburger-block {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
